@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-kitalpha') {
+orgs.newOrg('polarsys.kitalpha', 'eclipse-kitalpha') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
